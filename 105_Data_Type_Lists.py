@@ -55,3 +55,14 @@ hybrid_list = ['this is a string', 12, 66, 'hello', [1,2,3], [1,2,2]]
 # What happens when you have lots of records?
 # Loops and other data.
 
+# Tuples --> Immutable lists
+# They do not change
+# syntax
+# my_tuple = ()
+# tuples are defined by (), not using square brackets - != []
+my_tuple = (2, 'hello', 22, 'more value')
+print(my_tuple)
+print(type(my_tuple))
+
+print(my_tuple[0])
+# my_tuple[0] = 30 # this will fail
