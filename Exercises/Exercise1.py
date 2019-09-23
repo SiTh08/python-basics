@@ -28,8 +28,10 @@ print(f'Hello {first_name} {last_name}, you are {age} years old, you have {eye_c
 
 # Section 2 - Calculate in what year was the person born?
 
-Date_of_birth = (2019 - (age))
+Date_of_birth = (2019 - int(age))
+Date_of_birth = 2019 - age
 print(Date_of_birth)
 print(f'You said you were {age}, hence you were born in {Date_of_birth}')
-print(f'You said you were {age}, hence you were born in {2019 - (age)}')
+print(f'You said you were {age}, hence you were born in {2019 - int(age)}')
+print(f'You said you were {age}, hence you were born in {2019 - age}')
 

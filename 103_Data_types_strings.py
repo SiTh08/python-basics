@@ -52,5 +52,6 @@ print(my_string.replace('an', 'the'))
 
 #.split(arg) --> list
 print(my_string.split(' '))
-print(type(my_string.split(' ')))
+print(type(my_string.split('i')))
+
 
