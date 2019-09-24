@@ -7,6 +7,8 @@
         # 2 other things you define to be part of the story.
         # add each response to the dictonary under an appropriate key
 
+story = {}
+
 start_dict = input('Please start your story')
 hero_dict = input('What is the name of your hero in the story?')
 setting_dict = input('Where is the hero from?')
@@ -25,7 +27,9 @@ story = {
 
 # Print out the dictionary information in a ordered way so we can read the story.
 
-print(f'{start_dict.strip()} {hero_dict.strip()} {setting_dict.strip()} {plot_dict.strip()} {middle_dict.strip()} {end_dict.strip()}')
+print(f'{start_dict.strip()} {hero_dict.strip()}')
+print(f'{setting_dict.strip()} {plot_dict.strip()}')
+print(f'{middle_dict.strip()} {end_dict.strip()}')
 
 # Please start your story Once upon a time, there was a kingdom called Hyrule.
 # What is the name of your hero in the story? There was a hero called Link.

@@ -17,3 +17,35 @@ This report contains out basics for python. This course will cover the following
 
 - GIT, GITHUB, DOCUMENTATION with MARKDOWN
 
+##Recap of data types
+
+### String
+Define using '' and "". 
+
+They are list of characters. 
+
+### Int, Floats
+Number and decimals. 
+You can 
+
+### Lists 
+Defined with []
+You add using .append() and you remove entries using .pop(). 
+
+Use the index to access a record. 
+
+    $ my_list[4]
+    > 'iten in list'
+    
+
+### Dictionary 
+Defined using {}
+
+You can add simmple generating a new key pair. 
+
+    my_dictionary['newkey'] = 'value'
+ 
+You can access values using it's key. 
+
+    $ my_dictionary['key']
+    >'value'

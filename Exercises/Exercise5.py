@@ -27,13 +27,22 @@ print('Your third skill is', third_skill)
 #  # Print out the information in a formatted manner.
 print(f'Hello {first_name} {last_name}, you are {age} years old, your mother is {age_of_mother} and your three skills are that you are a {first_skill.lower()}, {second_skill.lower()} and {third_skill.lower()}.')
 
+
 #  # Calculate age difference between responder and mother
 age_difference = age_of_mother - age
 print(age_difference)
 
 #  # store skills in a list
-skill_set = [first_skill, second_skill, third_skill]
+skill_set = []
+skill_set.append(first_skill)
+skill_set.append(second_skill)
+skill_set.append(third_skill)
 print(skill_set)
+
+print(f'Hello {first_name} {last_name}, you are {age} years old, your mother is {age_of_mother} and your three skills are that you are a {skill_set[0]}, {skill_set[1]} and {skill_set[2]}.')
+
+# just using the list means the list will be not formatted.
+
 
 #  # print each skill in a formatted way.
 print('Your three skills are that you are a', (first_skill.strip().lower()) + ', ' + (second_skill.strip().lower()) + ' and ' + (third_skill.strip().lower()) + '.')
