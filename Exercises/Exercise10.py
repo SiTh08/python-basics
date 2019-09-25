@@ -41,3 +41,27 @@ for key in story_book:
     print(key)
     for key2 in story_book[key]:
         print(story_book[key][key2])
+
+book1 = story_book['story1']
+book2 = story_book['story2']
+book3 = story_book['story3']
+
+read = input('Would you like to read a story?').strip()
+
+if read == 'yes':
+    read1 = input("what story would like to read?").strip()
+    while True:
+        if read1 == book1:
+            print(book1)
+        elif read1 == book2:
+            print(book2)
+        elif read1 == book3:
+            print(book3)
+        else:
+            print('Please answer with book1, book2, book3')
+            read1 = input("what story would like to read?").strip()
+elif read == 'no':
+    exit()
+else:
+    print('Please answer with yes or no.')
+    read = input('Would you like to read a story?').strip()

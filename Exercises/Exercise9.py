@@ -17,7 +17,7 @@ while response != exit:
         print('HAHAHA! AHAHAHAHHA!! OMG! WHAT a silly question! Go back TO SCHOOL!')
     elif '!' in response:
         print('YES! YES! I WANT YOU TO BE MOTIVATED!! YES!')
-    elif response == 'I am a doctor':
+    elif response == 'I am a doctor.':
         print('WELL DONE! YOU can now talk to me.')
         break
     else:
